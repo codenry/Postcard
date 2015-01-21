@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         
         enterMessageTextField.text = ""
+        //hide and unhide the keyboard
         enterMessageTextField.resignFirstResponder()
         
     
