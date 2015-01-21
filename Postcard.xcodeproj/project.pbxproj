@@ -13,6 +13,8 @@
 		296A0D4F1A23591500C620A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296A0D4E1A23591500C620A1 /* Images.xcassets */; };
 		296A0D521A23591500C620A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296A0D501A23591500C620A1 /* LaunchScreen.xib */; };
 		296A0D5E1A23591500C620A1 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0D5D1A23591500C620A1 /* PostcardTests.swift */; };
+		296A0D681A23B8D100C620A1 /* tanu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 296A0D671A23B8D100C620A1 /* tanu.jpg */; };
+		296A0D6A1A23C01F00C620A1 /* button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 296A0D691A23C01F00C620A1 /* button.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		296A0D571A23591500C620A1 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296A0D5C1A23591500C620A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296A0D5D1A23591500C620A1 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		296A0D671A23B8D100C620A1 /* tanu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanu.jpg; sourceTree = "<group>"; };
+		296A0D691A23C01F00C620A1 /* button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		296A0D451A23591500C620A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				296A0D691A23C01F00C620A1 /* button.jpg */,
+				296A0D671A23B8D100C620A1 /* tanu.jpg */,
 				296A0D461A23591500C620A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				296A0D4D1A23591500C620A1 /* Main.storyboard in Resources */,
+				296A0D6A1A23C01F00C620A1 /* button.jpg in Resources */,
 				296A0D521A23591500C620A1 /* LaunchScreen.xib in Resources */,
 				296A0D4F1A23591500C620A1 /* Images.xcassets in Resources */,
+				296A0D681A23B8D100C620A1 /* tanu.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
